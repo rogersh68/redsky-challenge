@@ -1,0 +1,33 @@
+{
+  "name": "redsky-challenge",
+  "version": "1.0.0",
+  "description": "Boilerplate for React and Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Hannah Rogers",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "react-toastify": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogersh68/redsky-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogersh68/redsky-challenge/issues"
+  },
+  "homepage": "https://github.com/rogersh68/redsky-challenge#readme"
+}
